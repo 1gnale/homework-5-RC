@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Ignacio Mena"/>
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Challenge 5</title>
+  </head>
+  <body>
+    <h2>Formulario de ingreso</h2>
+    <section>
+      <fieldset class="formulario">
+        <legend class="leyenda">Datos del Usuario</legend>
+      <form >
+        <div>
+          <label for="apellido">Apellido</label>
+          <input type="text" minlength="1" maxlength="20"/>
+        </div>
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" minlength="1" maxlength="20"/>
+        </div>
+        <br>
+        <div>
+          <label for="pais">Pais</label>
+          <select>
+            <option>Estados Unidos</option>
+            <option>Argentina</option>
+            <option>Rusia</option>
+          </select>
+        </div>
+        <div>
+          <label>Género: </label>
+          <label for="masculino">Masculino</label1>
+          <input type="radio" name="genero"/>
+          <label for="femenino">Femenino</label>
+          <input type="radio" name="genero"/>
+          <label for="otro">Otro</label>
+          <input type="radio" name="genero"/>
+        </div>
+        <div>
+          <label for="usuario">Usuario</label>
+          <input type="text" minlength="1" maxlength="20"/>
+          <label for="contrasena">Contraseña</label>
+          <input type="password" minlength="1" maxlength="20"/>
+        </div>
+      </form>
+    </fieldset>
+    </section>
+    <br>
+    <section>
+      <h2>Usuarios Registrados</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Apellido</th>
+            <th>Nombre</th>
+            <th>Pais</th>
+            <th>Género</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Chibilisco</td>
+            <td>Alan</td>
+            <td>arg</td>
+            <td>M</td>
+          </tr>
+          <tr>
+            <td>Quiroga</td>
+            <td>Valentin</td>
+            <td>arg</td>
+            <td>M</td>
+          </tr>
+          <tr>
+            <td>Williams</td>
+            <td>John</td>
+            <td>usa</td>
+            <td>M</td>
+          </tr>
+          <tr>
+            <td>Romanoff</td>
+            <td>Natasha</td>
+            <td>ru</td>
+            <td>F</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>

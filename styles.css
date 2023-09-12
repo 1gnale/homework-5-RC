@@ -1,0 +1,41 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+body {
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+}
+
+.formulario {
+  background-color: #e43434;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.leyenda{
+  border-radius: 10px;
+  padding: 7px;
+  background-color: rgb(35, 164, 244);
+}
+
+.formulario label {
+  background-color: #e43434;
+  color: black;
+  font-weight: bold;
+}
+
+table thead th {
+  background-color: #8bbad1;
+  color: white;
+}
+
+table tbody td {
+  background-color: #fdeac8;
+  font-weight: normal;
+}
